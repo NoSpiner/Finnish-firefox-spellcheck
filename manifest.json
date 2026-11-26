@@ -3,17 +3,15 @@
   "name": "Finnish spellcheck",
   "version": "1.0",
   "description": "Adds a custom Finnish Hunspell dictionary for spellchecking.",
-
+  "dictionaries": {
+    "fi-FI": "dictionaries/fi_FI.dic"
+  },
   "browser_specific_settings": {
     "gecko": {
-      "id": "FI-Spellcheck@NoSpiner",
+      "id": "fi_spellcheck@example.com",
       "data_collection_permissions": {
         "required": ["none"]
       }
     }
-  },
-
-  "dictionaries": {
-    "fi-FI": "dictionaries/fi_FI.dic"
   }
 }
