@@ -1,12 +1,15 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Finnish spellcheck",
   "version": "1.0",
   "description": "Adds a custom Finnish Hunspell dictionary for spellchecking.",
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "FI-Spellcheck@NoSpiner"
+      "id": "FI-Spellcheck@NoSpiner",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
 
